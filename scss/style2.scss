@@ -1,0 +1,300 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url('http://fonts.googleapis.com/css?family=Ek+Mukta:400,600,700');
+
+body {
+    font-family: 'Roboto', sans-serrif;
+}
+
+.texto-centralizado {
+    text-align: center;
+}
+
+.navbar-brand {
+    display: none;
+}
+
+.navbar-default {
+    background: #fff;
+    border: none;
+}
+
+.navbar-default .logo,
+.navbar-default .surname {
+    margin: 0;
+    color: #666666;
+}
+
+.logo {
+    font-size: 55px;
+    position: relative;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.and {
+    color: #fe6d6d;
+    font: italic 100px "Times New Roman", Georgia, serif;
+    top: 35px;
+    position: relative;
+}
+
+.surname {
+    font-size: 30px;
+    top: -15px;
+    font-weight: 600;
+    border-bottom: 1px solid #dddddd;
+}
+
+.sp1 {
+    display: inline-block;
+    width: 250px;
+    padding-bottom: 20px;
+}
+
+.sp2 {
+    display: inline-block;
+    width: 250px;
+    text-align: left;
+    padding-left: 41px;
+}
+
+.menu li a {
+    text-transform: uppercase;
+    color: #777777;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.text-central {
+    position: absolute;
+    top: -317px;
+    left: 78px;
+}
+
+.carousel-inner>.item>img {
+    min-width: 100%;
+    max-height: 600px;
+}
+
+.carousel-inner h2.header-text {
+    color: #fff;
+    font-family: "Lobster";
+    font-size: 60px;
+    line-height: 62px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.carousel-inner h2.header-text span {
+    color: #FE6D6D;
+    display: block;
+    line-height: 184px;
+}
+
+.box-container {
+    background: #f9f7f1;
+    padding-bottom: 100px;
+}
+
+.box1,
+.box2 {
+    padding-top: 80px;
+    position: relative;
+    margin-top: 90px;
+}
+
+.thumbnail {
+    border: 0;
+    box-shadow: 0 10px 31px -15px black;
+}
+
+.thumbnail .caption {
+    text-align: center;
+}
+
+.thumbnail img {
+    border-radius: 50%;
+    border: 9px solid #fff;
+    margin-top: -114px;
+}
+
+.thumbnail img:hover {
+    border: 9px solid #FF6D6D;
+    webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.caption h3 {
+    font-family: "Lobster";
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #363638;
+}
+
+.caption p {
+    text-align: justify;
+    padding: 7px;
+    font-size: 1.1em;
+    color: #816943;
+}
+
+.caption .btn-default {
+    width: 124px;
+    height: 39px;
+    background: #ff6d6d;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 26px;
+}
+
+.caption .btn-default:hover {
+    color: #fff;
+    background: #333;
+}
+
+.social {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.social li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.social li a {
+    display: block;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 38px;
+    color: #555;
+    background-color: transparent;
+    transition-duration: 0.3s;
+    border: 1px solid transparent;
+}
+
+.social li a:hover {
+    border: 1px solid #FF6D6D;
+    color: #FF6D6D;
+}
+
+.footer {
+    background: #303030;
+    text-align: center;
+    padding: 20px;
+}
+
+.credits,
+.social-footer,
+.policy{
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+}
+
+.credits {
+    color: #aaaaaa;
+    font-size: 1.12em;
+    letter-spacing: 1px;
+}
+
+.credits span {
+    color: #FF6D6D;
+}
+
+.social-footer li {
+    display: inline-block;
+    margin: 0 5px 0 5px;
+}
+
+.social-footer li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border-radius: 50%;
+    line-height: 51px;
+    transition-duration: 0.3s;
+    border: 1px solid transparent;
+}
+
+.social-footer li a:hover {
+    background: #FF6D6D;
+    border: 1px solid #FF6D6D;
+}
+
+.social-footer i {
+    width: 40px;
+    height: 40px;
+}
+
+.social-footer .fa {
+    color: #fff;
+}
+
+.policy li {
+    display: inline-block;
+    color: #FF6D6D;
+}
+
+.policy li:first-child {
+    margin-right: 20px;
+}
+
+.policy a {
+    color: #FF6D6D;
+    font-size: 1.12em;
+}
+
+@media (max-width: 768px) {
+    .navbar-default {
+        background: #f1f1f1;
+    }
+    
+    .navbar-header .navbar-brand {
+        display: block;
+        color: #ff6d6d;
+    }
+
+    .menu .active {
+        background: #fff;
+    }
+
+    .logo,
+    .surname {
+        display: none;
+    }
+
+    .menu {
+        padding: 20px;
+    }
+
+    .nav li:hover {
+        background: blue;
+    }
+
+    .menu a:hover {
+        color: #ff6d6d;
+    }
+
+    .navbar-toggle {
+        background: #ff6d6d;
+    }
+    
+    .navbar-default .navbar-toggle .icon-bar {
+        background: #fff;
+    }
+
+    .carousel-caption {
+        display: none;
+    }
+}
